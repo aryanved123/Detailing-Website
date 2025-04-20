@@ -61,13 +61,8 @@ export default function Services() {
       {/* Services List */}
       <section className="py-16 px-4 md:px-8 lg:px-16">
         <motion.h2
-          className="text-xl md:text-2xl font-medium mb-12 text-center text-white"
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ amount: 0.5 }}
+        
         >
-          Explore Our Packages
         </motion.h2>
 
         <div className="space-y-12 max-w-4xl mx-auto">
