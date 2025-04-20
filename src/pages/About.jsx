@@ -3,7 +3,6 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import { motion } from 'framer-motion';
 import { FaStar, FaCar, FaGem } from 'react-icons/fa';
-import e53 from '../../public/e53.png';
 
 export default function About() {
   return (
@@ -36,14 +35,13 @@ export default function About() {
         >
           {/* Image */}
           <div className="md:w-1/2 h-72 md:h-auto">
-            <img
-              src="e53.png"
-              alt="Detailing Team"
-              className="w-full h-full object-cover"
-            />
-          </div>
-
-          {/* Text Content */}
+          <img
+            src="/e53.png" // Don't use import for images in /public
+            alt="Detailing Team"
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
+        {/* Text Content */}
           <div className="md:w-1/2 p-6 md:p-10 space-y-6 text-gray-200 select-none">
             <h2 className="text-3xl md:text-4xl font-bold leading-tight">Passion Turned Profession</h2>
             <p className="text-lg leading-loose">

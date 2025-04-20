@@ -5,7 +5,6 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Parallax } from 'react-parallax';
 import { FaCar, FaCouch, FaGem } from 'react-icons/fa';
-import pkg3Img from '../../public/pkg3.png';
 
 const services = [
   {
@@ -36,14 +35,15 @@ const services = [
   },
   {
     title: 'Package 3: Full Interior & Exterior',
-    icon: <FaGem className="text-3xl text-purple-400" />,  
+    icon: <FaGem className="text-3xl text-purple-400" />,
     price: '$50',
-    img: pkg3Img,
+    img: '/pkg3.png', // path from public folder
     features: [
       'All exterior detailing features',
       'All interior detailing features'
     ],
   },
+  
 ];
 
 export default function Services() {
