@@ -25,7 +25,7 @@ export default function Home() {
     <div className="absolute inset-0 bg-black/40 z-10" />
 
     {/* Content */}
-    <div className="relative z-20 flex flex-col items-center justify-center h-full text-white">
+    <div className="relative z-20 flex flex-col items-center justify-center h-full text-white select-none">
       <motion.h1
         className="text-6xl md:text-7xl font-extrabold mb-6 text-center"
         initial={{ opacity: 0, y: -30 }}

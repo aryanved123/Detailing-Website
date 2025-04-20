@@ -14,7 +14,7 @@ export default function About() {
       >
         <div className="h-[200px] flex items-center justify-center bg-black/60">
           <motion.h1
-            className="text-4xl md:text-5xl font-bold text-center"
+            className="text-4xl md:text-5xl font-bold text-center select-none"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -43,7 +43,7 @@ export default function About() {
           </div>
 
           {/* Text Content */}
-          <div className="md:w-1/2 p-6 md:p-10 space-y-6 text-gray-200">
+          <div className="md:w-1/2 p-6 md:p-10 space-y-6 text-gray-200 select-none">
             <h2 className="text-3xl md:text-4xl font-bold leading-tight">Passion Turned Profession</h2>
             <p className="text-lg leading-loose">
               We’re two car guys from Markham, Ontario who’ve turned our passion for detailing into a business. At GLOSSLAB Detailing, our goal is simple: make every car look showroom-ready through quality and care.

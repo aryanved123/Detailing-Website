@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-black bg-opacity-80 backdrop-blur-md text-white">
+    <header className="sticky top-0 z-50 bg-black bg-opacity-80 backdrop-blur-md text-white select-none">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <a
           href="#home"
