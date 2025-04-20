@@ -34,7 +34,7 @@ export default function About() {
           viewport={{ once: false }}
         >
           {/* Image */}
-          <div className="md:w-1/2 h-72 md:h-auto">
+          <div className="md:w-1/2 h-72 md:h-auto select-none">
           <img
             src="/e53.png" // Don't use import for images in /public
             alt="Detailing Team"
