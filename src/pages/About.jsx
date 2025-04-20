@@ -3,13 +3,14 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import { motion } from 'framer-motion';
 import { FaStar, FaCar, FaGem } from 'react-icons/fa';
+import e53 from '../../public/e53.png';
 
 export default function About() {
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       {/* Parallax Banner */}
       <Parallax
-        bgImage="https://images.unsplash.com/photo-1570215171323-4ec3284b22c5?auto=format&fit=crop&w=1650&q=80"
+        bgImage=""
         strength={300}
       >
         <div className="h-[200px] flex items-center justify-center bg-black/60">
@@ -36,7 +37,7 @@ export default function About() {
           {/* Image */}
           <div className="md:w-1/2 h-72 md:h-auto">
             <img
-              src="https://images.unsplash.com/photo-1570215171323-4ec3284b22c5?auto=format&fit=crop&w=800&q=80"
+              src="e53.png"
               alt="Detailing Team"
               className="w-full h-full object-cover"
             />
