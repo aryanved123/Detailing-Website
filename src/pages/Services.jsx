@@ -24,7 +24,7 @@ const services = [
     title: 'Package 2: Interior Detailing',
     icon: <FaCouch className="text-3xl text-green-400" />,  
     price: '$30',
-    img: 'https://cavallistables.com/wp-content/uploads/2020/05/Luxury-Car-Detailing-Toronto.jpg',
+    img: '/interior.png',
     features: [
       'Vacuum carpets, seats & trunk',
       'Shampoo mats & upholstery',
