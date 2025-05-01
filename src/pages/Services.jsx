@@ -10,7 +10,7 @@ const services = [
   {
     title: 'Package 1: Exterior Wash',
     icon: <FaCar className="text-3xl text-indigo-400" />,  
-    price: '$30',
+    price: '$45',
     img: 'https://firstdetailing.ca/wp-content/uploads/2020/08/24.11-2020-Mercedes-Benz-AMG-S63-Coupe-1030x773.jpg',
     features: [
       'Hand wash & rinse',
@@ -23,7 +23,7 @@ const services = [
   {
     title: 'Package 2: Interior Detailing',
     icon: <FaCouch className="text-3xl text-green-400" />,  
-    price: '$30',
+    price: '$45',
     img: '/interior.png',
     features: [
       'Vacuum carpets, seats & trunk',
@@ -36,7 +36,7 @@ const services = [
   {
     title: 'Package 3: Full Interior & Exterior',
     icon: <FaGem className="text-3xl text-purple-400" />,
-    price: '$50',
+    price: '$80',
     img: '/pkg3.png', // path from public folder
     features: [
       'All exterior detailing features',
